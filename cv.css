@@ -1,0 +1,180 @@
+body{
+    background-color: #FFFFFF;
+    font-family: "monserrat",arial; 
+}
+li {
+     line-height:  24px; ;
+}
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+}
+/*   informacion general       */
+.informacion-general {
+    padding: 100px 80px;
+    width: 70%;
+}
+.nombre {
+    font-family: 'Montserrat';  
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+margin-top: 20px ;
+margin-bottom: 25px;
+}
+.texto-descripcion {
+    width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+}
+.descripcion-profesion {
+    font-size: 14px;
+    font-weight: 700px;
+    font-family: 'Montserrat'; 
+}
+
+/* secciones principales */
+.titulo-seccion-principal {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Montserrat';
+}
+.texto-naranja {
+    color: orangered;
+}
+/* seccion proyectos*/
+.lista-proyectos {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+padding-left: 17px;
+font-family: 'Montserrat';
+}
+.enlace-proyectos {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+text-decoration-line: underline;
+font-family: 'Montserrat';
+}
+
+.enlace-telefono {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+        text-decoration-line: none;
+        font-family: 'Montserrat'}
+    
+.puntos-proyectos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    letter-spacing: 2px;
+}
+/*experiencia laboral*/
+.puesto-empresa {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 11px ;
+    font-family: 'Montserrat';
+}
+.periodo-empresa {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;   
+    color: #A8A8A8;
+    font-family: 'Montserrat';
+}
+.descripcion {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+padding-left: 17px;
+}
+.información-lateral{
+    background-color: #1e2939;
+    width: 380px;
+    
+
+}
+.información-lateral img{
+    width: 100%;
+    margin-top: opx;
+}
+.titulo-lateral {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+}
+ .habilidades-tecnicas, .habilidades-blandas, .otros  {
+margin-left: 30px;
+margin-top:70px;
+}
+
+
+.lista-lateral {
+    padding-left: 17px;
+}
+.lista-lateral > li {
+    color: orangered;
+}
+.elemento-lista-lateral {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:   white;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+.elemento-lista-lateral a{
+text-decoration: none;
+color: #FFFFFF;
+}
+
+ a :hover{
+    text-decoration: overline;
+    color: orangered;
+    background-color: blue;
+}
+
+
+
+.habilidades-blandas {
+    margin-left: 30px;
+    font-family: 'Montserrat';
+}
+
+.Others {
+
+    margin-left: 30px;
+}

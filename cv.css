@@ -60,12 +60,26 @@ line-height: 24px;
 padding-left: 17px;
 font-family: 'Montserrat';
 }
+
+.item-proyectos li {
+   width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat'; 
+    color: #595959; 
+}
+
+
+
+
 .enlace-proyectos {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
-color: #595959;
+color: black;
 text-decoration-line: underline;
 font-family: 'Montserrat';
 }
@@ -135,7 +149,15 @@ padding-left: 17px;
     margin-top: 30px;
     font-family: 'Montserrat';
 }
- .habilidades-tecnicas, .habilidades-blandas, .otros  {
+
+.descripción-item-lat{
+     font-size: 14px;
+    font-weight: 700px;
+    font-family: 'Montserrat'; 
+    color: white;
+}
+ 
+.habilidades-tecnicas, .habilidades-blandas, .otros  {
 margin-left: 30px;
 margin-top:70px;
 }
@@ -158,13 +180,15 @@ margin-top:70px;
 }
 .elemento-lista-lateral a{
 text-decoration: none;
-color: #FFFFFF;
+color: gray;
 }
 
- a :hover{
-    text-decoration: overline;
-    color: orangered;
-    background-color: blue;
+
+a:hover{
+    text-decoration:solid;
+    color:white;
+    background-color:orangered;
+    border-radius: 4px;
 }
 
 
@@ -178,3 +202,25 @@ color: #FFFFFF;
 
     margin-left: 30px;
 }
+
+ @media (max-width: 768px) {
+
+    .contenedor-principal {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    .información-lateral img {
+            max-width: 35%;
+             height: auto;
+                 
+            }
+
+    .información-lateral {
+        display: flex;
+        
+        width: 100%;
+
+    
+
+}
+ }
